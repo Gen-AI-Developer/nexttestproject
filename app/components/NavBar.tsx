@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
-  )
-}
+    <div className="bg-white">
+      <nav className="p-4 shadow-md">
+        Full <span className="font-semibold">Stack Developer</span>
+      </nav>
+    </div>
+  );
+};
 
-export default NavBar
+export default NavBar;
